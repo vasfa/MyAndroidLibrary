@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/teal_800</color><!--this color is for actionbar-->
+    <color name="colorPrimaryDark">@color/teal_900</color><!--this color is for top level of device(where time and battry shows)-->
+    <color name="colorAccent">@color/teal_800</color>
+
+    <color name="colorControlHighlight">#8824ba</color>
+    <color name="white">#fff</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="teal_050">#fce4e7</color> <!-- Use with black text -->
+    <color name="teal_100">#f8bbc2</color> <!-- Use with black text -->
+    <color name="teal_200">#f48f9d</color> <!-- Use with black text -->
+    <color name="teal_300">#f06276</color> <!-- Use with black text -->
+    <color name="teal_400">#ec4058</color> <!-- Use with black text -->
+    <color name="teal_500">#e91e3b</color> <!-- Use with white text -->
+    <color name="teal_600">#d81b3a</color> <!-- Use with white text -->
+    <color name="teal_800">#c21830</color> <!-- Use with white text -->
+    <color name="teal_700">#ad142a</color> <!-- Use with white text -->
+    <color name="teal_900">#880e1c</color> <!-- Use with white text -->
+
+    <integer-array name="gplus_colors">
+        <item>@color/teal_300</item>
+        <item>@color/teal_500</item>
+        <item>@color/teal_700</item>
+        <item>@color/teal_900</item>
+    </integer-array>
+
+
+    <color name="aspectRatioNotSelected">#757575</color>
+    <color name="aspectRatioText">#757575</color>
+    <color name="disabledOverlay">#3cffffff</color>
+</resources>
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#0078ac</color>
+    <color name="colorAccent">#0098db</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="ucrop_color_toolbar">#0078ac</color>
+    <color name="showCaseBackground">#ed3f51b5</color>
+    <color name="colorPrimary2">#4657b7</color>
+    <color name="cyan">#d7d8d8</color>
+    <color name="Blue">#0000ff</color>
+    <color name="DarkBlue">#2f6aa5</color>
+    <color name="DarkBlue2">#4b89ad</color>
+    <color name="BlueGray">#607D8B</color>
+    <color name="DarkGreen">#4bad5d</color>
+    <color name="GreenDark">#33691E</color>
+    <color name="Green">#43A047</color>
+    <color name="lightGreen">#C8E6C9</color>
+    <color name="greenLight2">#7CB342</color>
+    <color name="Red">#D50000</color>
+    <color name="DarkRed">#C62828</color>
+    <color name="Lime">#9E9D24</color>
+    <color name="White">#ffffff</color>
+    <color name="gray">#E0E0E0</color>
+    <color name="grayDark">#808080</color>
+    <color name="blueGray">#37474F</color>
+    <color name="BlackGray">#54544f</color>
+    <color name="Orange">#FFA726</color>
+    <color name="Black">#000000</color>
+    <color name="DarkOrange">#f49509</color>
+    <color name="transparent0">#bcffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent2">#bbffffff</color>
+    <color name="transparent3">#f3ffffff</color>
+    <color name="transparent4">#62000000</color>
+    <color name="transparent_light_blue">#6200eeff</color>
+    <color name="transparent_dark_blue">#620088ff</color>
+    <color name="transparent_orang">#79ff8000</color>
+    <color name="transparent_pink">#62ff00d9</color>
+    <color name="transparent_red">#b5ff0004</color>
+    <color name="transparent_green">#bb0d9903</color>
+    <color name="transparent_gray">#bb868686</color>
+    <color name="transparent_white_smoke">#F8F8F8</color>
+    <color name="transparent_darker_white_smoke">#ededed</color>
+    <color name="transparent_darker_white_smoke2">#e4e4e4</color>
+    <color name="transparent_help">#e0e0e0</color>
+    <color name="transparent_darker_white_smoke3">#a8e4e4e4</color>
+    <color name="_green">#0d9903</color>
+    <color name="Brown">#9b6847</color>
+    <color name="RED">#cc0000</color>
+    <color name="Brown2">#de866f5f</color>
+    <color name="Brown3">#784b2e</color>
+    <color name="Brown_main">#282828</color>
+
+    <color name="teal_050">#e1f5fe</color> <!-- Use with black text -->
+    <color name="teal_100">#b3e5fc</color> <!-- Use with black text -->
+    <color name="teal_200">#81d4fa</color> <!-- Use with black text -->
+    <color name="teal_300">#4fc3f7</color> <!-- Use with black text -->
+    <color name="teal_400">#29b6f6</color> <!-- Use with black text -->
+    <color name="teal_500">#03a9f4</color> <!-- Use with white text -->
+    <color name="teal_600">#039be5</color> <!-- Use with white text -->
+    <color name="teal_700">#0288d1</color> <!-- Use with white text -->
+    <color name="teal_800">#0277bd</color> <!-- Use with white text -->
+    <color name="teal_900">#01579b</color> <!-- Use with white text -->
+
+    <color name="bg1_red">#f50000</color>
+    <color name="bg3_light_gray">#dcdbdb</color>
+    <color name="bg2_dark_gray">#717070</color>
+
+    <color name="colorHighlight">#b6b6b6</color>
+    <color name="genre">#666666</color>
+    <color name="year">#888888</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+    <color name="indigo">#ffe44f</color>
+    <color name="picked">#a8a4a1</color>
+
+
+    <color name="tab_blue_color">#0f6fb9</color>
+    <color name="floating_action_blue_color">#063153</color>
+    <color name="recording_blue_color">#0f6fb9</color>
+
+    <color name="notfree">#ff7c00</color>
+    <color name="notfree2">#fff</color>
+    <color name="free">#007aff</color>
+    <color name="free2">#fff</color>
+
+    <integer-array name="gplus_colors">
+        <item>@color/teal_300</item>
+        <item>@color/teal_500</item>
+        <item>@color/teal_700</item>
+        <item>@color/teal_900</item>
+    </integer-array>
+
+    <!-- Background color for light CardView. -->
+    <color name="opt_round_card_view_light_background">#FFFAFAFA</color>
+    <!-- Background color for dark CardView. -->
+    <color name="opt_round_card_view_dark_background">#FF202020</color>
+    <!-- Shadow color for the first pixels around CardView. -->
+    <color name="opt_round_card_view_shadow_start_color">#37000000</color>
+    <!-- Shadow color for the furthest pixels around CardView. -->
+    <color name="opt_round_card_view_shadow_end_color">#03000000</color>
+
+</resources>

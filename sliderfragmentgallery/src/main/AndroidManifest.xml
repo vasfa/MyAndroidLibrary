@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="ir.mlibs.sliderfragmentgallery">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity android:name="ir.mlibs.sliderfragmentgallery.FullScreenActivity"
+            android:theme="@style/AppThemeSplash"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="sensor">
+
+        </activity>
+    </application>
+
+</manifest>

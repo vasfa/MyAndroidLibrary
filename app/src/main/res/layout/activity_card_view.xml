@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="ir.mlibs.notificationlibrary.CardViewActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <CustomCardView.OptRoundCardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:optRoundCardCornerRadius="25dp"
+            app:optRoundCardLeftBottomCorner="false"
+            app:optRoundCardRightBottomCorner="true"
+            app:optRoundCardLeftTopCorner="true"
+            app:optRoundCardRightTopCorner="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            card_view:optRoundCardBackgroundColor="#0da"
+            app:optRoundCardBottomEdges="false">
+        </CustomCardView.OptRoundCardView>
+        <CustomCardView.OptRoundCardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:optRoundCardCornerRadius="25dp"
+            app:optRoundCardLeftBottomCorner="true"
+            app:optRoundCardRightBottomCorner="false"
+            app:optRoundCardLeftTopCorner="true"
+            app:optRoundCardRightTopCorner="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            card_view:optRoundCardBackgroundColor="#0da"
+            app:optRoundCardBottomEdges="false">
+        </CustomCardView.OptRoundCardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <CustomCardView.OptRoundCardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:optRoundCardCornerRadius="25dp"
+            app:optRoundCardLeftBottomCorner="true"
+            app:optRoundCardRightBottomCorner="true"
+            app:optRoundCardLeftTopCorner="false"
+            app:optRoundCardRightTopCorner="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            card_view:optRoundCardBackgroundColor="#0da"
+            app:optRoundCardBottomEdges="false">
+        </CustomCardView.OptRoundCardView>
+        <CustomCardView.OptRoundCardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:optRoundCardCornerRadius="25dp"
+            app:optRoundCardLeftBottomCorner="true"
+            app:optRoundCardRightBottomCorner="true"
+            app:optRoundCardLeftTopCorner="true"
+            app:optRoundCardRightTopCorner="false"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            card_view:optRoundCardBackgroundColor="#0da"
+            app:optRoundCardBottomEdges="false">
+        </CustomCardView.OptRoundCardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <CustomCardView.OptRoundCardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:optRoundCardCornerRadius="25dp"
+            app:optRoundCardLeftBottomCorner="true"
+            app:optRoundCardRightBottomCorner="true"
+            app:optRoundCardLeftTopCorner="true"
+            app:optRoundCardRightTopCorner="false"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            card_view:optRoundCardBackgroundColor="#0da"
+            app:optRoundCardBottomEdges="false">
+        </CustomCardView.OptRoundCardView>
+        <CustomCardView.OptRoundCardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:optRoundCardCornerRadius="25dp"
+            app:optRoundCardLeftBottomCorner="true"
+            app:optRoundCardRightBottomCorner="true"
+            app:optRoundCardLeftTopCorner="true"
+            app:optRoundCardRightTopCorner="false"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            card_view:optRoundCardBackgroundColor="#0da"
+            app:optRoundCardBottomEdges="false">
+        </CustomCardView.OptRoundCardView>
+    </LinearLayout>
+
+</LinearLayout>

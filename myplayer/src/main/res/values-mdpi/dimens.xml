@@ -1,0 +1,54 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="gallery_text_size">15sp</dimen>
+    <dimen name="recording_counter_text_size">12sp</dimen>
+    <dimen name="recording_counter_text_size2">10sp</dimen>
+    <dimen name="recording_quality_text_size">11sp</dimen>
+    <dimen name="play_video_title">12sp</dimen>
+    <dimen name="imageSize1">26dp</dimen>
+    <dimen name="text_size2">12sp</dimen>
+    <dimen name="text_size3">10sp</dimen>
+    <dimen name="text_size_question">9sp</dimen>
+    <dimen name="text_size4">6sp</dimen>
+    <dimen name="custom_tab_2">9sp</dimen>
+    <dimen name="text_size5">15dp</dimen>
+    <dimen name="text_size">10sp</dimen>
+    <dimen name="loadingSize">25dp</dimen>
+    <dimen name="progressbar_size">35dp</dimen>
+    <dimen name="tab_home_size">33dp</dimen>
+    <dimen name="tab_search_size">40dp</dimen>
+    <dimen name="mypoint">65dp</dimen>
+    <dimen name="main_header2">171dp</dimen>
+    <dimen name="service_item">40dp</dimen>
+    <dimen name="profile_item_size">100dp</dimen>
+    <dimen name="profile_item_size2">90dp</dimen>
+    <dimen name="profile_item_size3">120dp</dimen>
+    <dimen name="videos">155dp</dimen>
+    <dimen name="videos2">140dp</dimen>
+    <dimen name="imageview_imfor">200dp</dimen>
+    <dimen name="point">13dp</dimen>
+    <dimen name="exit_size">90dp</dimen>
+    <dimen name="image_size">110dp</dimen>
+    <dimen name="arabic_size">15dp</dimen>
+    <dimen name="persion_size">12dp</dimen>
+    <dimen name="spacing">30dp</dimen>
+
+    <dimen name="servicesize">48dp</dimen>
+
+
+    <dimen name="main_header3">70dp</dimen>
+    <dimen name="main_logo">230dp</dimen>
+    <dimen name="main_logo_1">236dp</dimen>
+    <dimen name="main_logo2">100dp</dimen>
+    <dimen name="main_logo3">160dp</dimen>
+    <dimen name="main_header">150dp</dimen>
+    <dimen name="seekbar1">10dp</dimen>
+    <dimen name="activity13">25dp</dimen>
+
+    <dimen name="taghvim">40dp</dimen>
+    <dimen name="downloadmanager">30dp</dimen>
+    <dimen name="downloadmanager2">150dp</dimen>
+</resources>

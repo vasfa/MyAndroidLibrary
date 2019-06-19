@@ -1,0 +1,1 @@
+include ':app', ':varitynotification', ':deeplinking', ':messagebox', ':slidergallery', ':imageprogressbar', ':imagenewprogressbar', ':sliderfragmentgallery', ':myplayer', ':myupload', ':rolet'

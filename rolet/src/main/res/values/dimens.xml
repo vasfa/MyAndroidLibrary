@@ -1,0 +1,38 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">62dp</dimen>
+    <dimen name="recording_counter_text_size">19sp</dimen>
+    <dimen name="play_video_title">10sp</dimen>
+    <dimen name="imageSize1">24dp</dimen>
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="text_size2">14sp</dimen>
+    <dimen name="text_size3">12sp</dimen>
+    <dimen name="text_size4">10sp</dimen>
+    <dimen name="text_size5">14dp</dimen>
+    <dimen name="loadingSize">40dp</dimen>
+    <dimen name="tab_home_size">45dp</dimen>
+    <dimen name="tab_search_size">55dp</dimen>
+    <dimen name="mypoint">68dp</dimen>
+    <dimen name="main_logo">280dp</dimen>
+    <dimen name="main_logo2">110dp</dimen>
+    <dimen name="main_logo3">200dp</dimen>
+    <dimen name="main_header">250dp</dimen>
+    <dimen name="main_header3">220dp</dimen>
+    <dimen name="main_header2">161dp</dimen>
+    <dimen name="service_item">30dp</dimen>
+    <dimen name="profile_item_size">160dp</dimen>
+    <dimen name="imageview_imfor">250dp</dimen>
+
+    <dimen name="exit_size">100dp</dimen>
+
+    <dimen name="spacing">40dp</dimen>
+    <dimen name="servicesize">52dp</dimen>
+    <dimen name="servicesize_chance2">170dp</dimen>
+
+    <dimen name="royal">5dp</dimen>
+
+    <dimen name="lottery">92dp</dimen>
+
+    <dimen name="web_view_size">200dp</dimen>
+
+</resources>

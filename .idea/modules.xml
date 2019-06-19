@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NotificationLibrary.iml" filepath="$PROJECT_DIR$/NotificationLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deeplinking/deeplinking.iml" filepath="$PROJECT_DIR$/deeplinking/deeplinking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imagenewprogressbar/imagenewprogressbar.iml" filepath="$PROJECT_DIR$/imagenewprogressbar/imagenewprogressbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageprogressbar/imageprogressbar.iml" filepath="$PROJECT_DIR$/imageprogressbar/imageprogressbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/messagebox/messagebox.iml" filepath="$PROJECT_DIR$/messagebox/messagebox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myplayer/myplayer.iml" filepath="$PROJECT_DIR$/myplayer/myplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myupload/myupload.iml" filepath="$PROJECT_DIR$/myupload/myupload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rolet/rolet.iml" filepath="$PROJECT_DIR$/rolet/rolet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sliderfragmentgallery/sliderfragmentgallery.iml" filepath="$PROJECT_DIR$/sliderfragmentgallery/sliderfragmentgallery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidergallery/slidergallery.iml" filepath="$PROJECT_DIR$/slidergallery/slidergallery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/varitynotification/varitynotification.iml" filepath="$PROJECT_DIR$/varitynotification/varitynotification.iml" />
+    </modules>
+  </component>
+</project>

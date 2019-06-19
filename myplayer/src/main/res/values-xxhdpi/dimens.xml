@@ -1,0 +1,53 @@
+<resources>
+
+    <dimen name="main_header3">130dp</dimen>
+    <dimen name="activity_horizontal_margin">62dp</dimen>
+    <dimen name="gallery_text_size">14sp</dimen>
+    <dimen name="recording_counter_text_size">19sp</dimen>
+    <dimen name="recording_counter_text_size2">17sp</dimen>
+    <dimen name="recording_quality_text_size">10sp</dimen>
+    <dimen name="play_video_title">10sp</dimen>
+    <dimen name="imageSize1">24dp</dimen>
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="text_size2">14sp</dimen>
+    <dimen name="text_size3">12sp</dimen>
+    <dimen name="text_size_question">12sp</dimen>
+    <dimen name="text_size4">10sp</dimen>
+    <dimen name="custom_tab_2">10sp</dimen>
+    <dimen name="text_size5">14dp</dimen>
+    <dimen name="point">15dp</dimen>
+    <dimen name="loadingSize">40dp</dimen>
+    <dimen name="progressbar_size">50dp</dimen>
+    <dimen name="tab_home_size">55dp</dimen>
+    <dimen name="tab_search_size">55dp</dimen>
+    <dimen name="mypoint">85dp</dimen>
+    <dimen name="main_logo">280dp</dimen>
+    <dimen name="main_logo_1">286dp</dimen>
+    <dimen name="main_logo2">150dp</dimen>
+    <dimen name="main_logo3">210dp</dimen>
+    <dimen name="main_header">250dp</dimen>
+    <dimen name="main_header2">171dp</dimen>
+    <dimen name="service_item">35dp</dimen>
+    <dimen name="profile_item_size">160dp</dimen>
+    <dimen name="profile_item_size2">100dp</dimen>
+    <dimen name="profile_item_size3">140dp</dimen>
+    <dimen name="videos">170dp</dimen>
+    <dimen name="videos2">160dp</dimen>
+    <dimen name="imageview_imfor">250dp</dimen>
+    <dimen name="arabic_size">20dp</dimen>
+    <dimen name="persion_size">14dp</dimen>
+    <dimen name="exit_size">110dp</dimen>
+    <dimen name="image_size">140dp</dimen>
+
+    <dimen name="spacing">40dp</dimen>
+    <dimen name="servicesize">82dp</dimen>
+    <dimen name="activity13">40dp</dimen>
+    <dimen name="seekbar1">9dp</dimen>
+    <dimen name="textheight">8dp</dimen>
+    <dimen name="taghvim">50dp</dimen>
+
+    <dimen name="downloadmanager">35dp</dimen>
+    <dimen name="downloadmanager2">170dp</dimen>
+
+
+</resources>

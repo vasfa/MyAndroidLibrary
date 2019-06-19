@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|top"
+            android:paddingTop="20dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="@dimen/main_header">
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="250dp"
+                    android:layout_height="@dimen/main_header3"
+                    android:src="@drawable/wheel"/>
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/flash"
+                    android:layout_marginTop="205dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignLeft="@+id/img"
+                    android:layout_alignStart="@+id/img" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/rolet1"
+                    android:layout_width="@dimen/tab_search_size"
+                    android:layout_height="@dimen/tab_search_size"
+                    android:src="@drawable/custom_rolet_click1"
+                    android:layout_marginRight="20dp"/>
+                <ImageView
+                    android:id="@+id/rolet1_1"
+                    android:layout_width="@dimen/tab_search_size"
+                    android:layout_height="@dimen/tab_search_size"
+                    android:src="@drawable/rolet8"
+                    android:visibility="gone"
+                    android:layout_marginRight="20dp"/>
+                <ImageView
+                    android:id="@+id/rolet2"
+                    android:layout_width="@dimen/tab_search_size"
+                    android:layout_height="@dimen/tab_search_size"
+                    android:src="@drawable/custom_rolet_click2"
+                    android:layout_marginRight="20dp"/>
+                <ImageView
+                    android:id="@+id/rolet2_2"
+                    android:layout_width="@dimen/tab_search_size"
+                    android:layout_height="@dimen/tab_search_size"
+                    android:src="@drawable/rolet9"
+                    android:visibility="gone"
+                    android:layout_marginRight="20dp"/>
+                <ImageView
+                    android:id="@+id/rolet3"
+                    android:layout_width="@dimen/tab_search_size"
+                    android:layout_height="@dimen/tab_search_size"
+                    android:src="@drawable/custom_rolet_click3"/>
+                <ImageView
+                    android:id="@+id/rolet3_3"
+                    android:layout_width="@dimen/tab_search_size"
+                    android:layout_height="@dimen/tab_search_size"
+                    android:src="@drawable/rolet10"
+                    android:visibility="gone"/>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/ImageView_role"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/custom_rolet"/>
+                <rolet_textview.IRANSansMobile_BoldFontTextView
+                    android:id="@+id/selected_position_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerInParent="true"
+                    android:textColor="#000"
+                    android:text="شانست رو امتحان کن"
+                    android:textSize="@dimen/text_size3" />
+            </RelativeLayout>
+
+            <rolet_textview.IRANSansMobile_BoldFontTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:textColor="#fff"
+                android:text="با پرداخت ویز و چرخاندن رولت روزی 3 بار شانس خود را امتحان کنید و جایزه بگیرید"
+                android:textSize="@dimen/text_size4" />
+
+            <EditText
+                android:id="@+id/edittext_id"
+                android:layout_width="150dp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:hint="تعداد دور"
+                android:inputType="number"
+                android:textColorHint="#fff"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                />
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="بچرخوان"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+

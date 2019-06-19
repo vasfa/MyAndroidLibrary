@@ -1,0 +1,411 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/whatYouWantInLeftDrawer"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="@color/White"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/Drawer_category"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:background="#0278aa"
+            android:visibility="gone"
+            android:gravity="center_vertical|center_horizontal">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="76dp"
+                        android:layout_height="76dp"
+                        android:src="@drawable/personlogo" />
+
+                </RelativeLayout>
+
+                <main_textview.IRANSansMobileFontTextView
+                    android:id="@+id/textView_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="کاربر مهمان"
+                    android:textColor="@color/White"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_Registeration"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="#015071"
+            android:gravity="center_vertical|center_horizontal">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+
+
+
+                <main_textview.IRANSansMobileFontTextView
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="ثبت نام"
+                    android:textColor="@color/White"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="#000"
+                >
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+
+
+
+                <main_textview.IRANSansMobileFontTextView
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="ورود"
+                    android:textColor="@color/White"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_registerChecker"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/Linearlayout_MyProfile"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/custom_bg"
+                            android:gravity="right|center_vertical|center_horizontal"
+                            android:orientation="horizontal"
+                            android:paddingRight="10dp">
+
+                            <main_textview.IRANSansMobileFontTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:text="پروفایل من"
+                                android:textColor="#313131"
+                                android:textSize="@dimen/text_size2" />
+
+                            <ImageView
+                                android:layout_width="@dimen/recording_counter_text_size"
+                                android:layout_height="@dimen/recording_counter_text_size"
+                                android:layout_marginLeft="5dp"
+                                android:src="@drawable/iv_nav_user" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/Linearlayout_Inbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/custom_bg"
+                            android:gravity="right|center_vertical|center_horizontal"
+                            android:orientation="horizontal"
+                            android:paddingRight="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="left|center_vertical|center_horizontal"
+                                android:orientation="horizontal">
+
+                                <main_textview.IRANSansMobileFontTextView
+                                    android:id="@+id/TextView_InboxCount"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="20dp"
+                                    android:background="@drawable/rounded_corner_type3"
+                                    android:gravity="center_horizontal|center_vertical"
+                                    android:paddingLeft="10dp"
+                                    android:paddingRight="10dp"
+                                    android:paddingTop="5dp"
+                                    android:text="2"
+                                    android:textColor="#fff"
+                                    android:textSize="@dimen/text_size2"
+                                    android:visibility="gone" />
+                            </LinearLayout>
+
+                            <main_textview.IRANSansMobileFontTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:text="پیام های دریافتی"
+                                android:textColor="#313131"
+                                android:textSize="@dimen/text_size2" />
+
+                            <ImageView
+                                android:layout_width="@dimen/recording_counter_text_size"
+                                android:layout_height="@dimen/recording_counter_text_size"
+                                android:layout_marginLeft="5dp"
+                                android:src="@drawable/iv_nav_msg" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/Linearlayout_Video_Followers"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/custom_bg"
+                            android:gravity="right|center_vertical|center_horizontal"
+                            android:orientation="horizontal"
+                            android:paddingRight="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="left|center_vertical|center_horizontal"
+                                android:orientation="horizontal">
+
+                                <main_textview.IRANSansMobileFontTextView
+                                    android:id="@+id/TextView_Followers_count"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="20dp"
+                                    android:background="@drawable/rounded_corner_type3"
+                                    android:gravity="center_horizontal|center_vertical"
+                                    android:paddingLeft="10dp"
+                                    android:paddingRight="10dp"
+                                    android:paddingTop="5dp"
+                                    android:text="2"
+                                    android:textColor="#fff"
+                                    android:textSize="@dimen/text_size2"
+                                    android:visibility="gone" />
+                            </LinearLayout>
+
+                            <main_textview.IRANSansMobileFontTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:text="ویدیو دنبال شوندگان"
+                                android:textColor="#313131"
+                                android:textSize="@dimen/text_size2" />
+
+                            <ImageView
+                                android:layout_width="@dimen/recording_counter_text_size"
+                                android:layout_height="@dimen/recording_counter_text_size"
+                                android:layout_marginLeft="5dp"
+                                android:src="@drawable/iv_nav_video" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/Linearlayout_Invite_friends"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/custom_bg"
+                            android:gravity="right|center_vertical|center_horizontal"
+                            android:orientation="horizontal"
+                            android:paddingRight="10dp">
+
+                            <main_textview.IRANSansMobileFontTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:text="دعوت دوستان"
+                                android:textColor="#313131"
+                                android:textSize="@dimen/text_size2" />
+
+                            <ImageView
+                                android:layout_width="@dimen/imageSize1"
+                                android:layout_height="@dimen/imageSize1"
+                                android:layout_marginLeft="5dp"
+                                android:src="@drawable/iv_nav_friend" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/Linearlayout_My_points"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/custom_bg"
+                            android:gravity="right|center_vertical|center_horizontal"
+                            android:orientation="horizontal"
+                            android:paddingRight="10dp">
+
+                            <main_textview.IRANSansMobileFontTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:text="ورود کد معرف"
+                                android:textColor="#313131"
+                                android:textSize="@dimen/text_size2" />
+
+                            <ImageView
+                                android:layout_width="@dimen/imageSize1"
+                                android:layout_height="@dimen/imageSize1"
+                                android:layout_marginLeft="5dp"
+                                android:src="@drawable/iv_invite" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/Linearlayout_My_Account_awards"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/custom_bg"
+                        android:gravity="right|center_vertical|center_horizontal"
+                        android:orientation="horizontal"
+                        android:paddingRight="10dp">
+
+                        <main_textview.IRANSansMobileFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="جوایز و دریافت شارژ"
+                            android:textColor="#313131"
+                            android:textSize="@dimen/text_size2" />
+
+                        <ImageView
+                            android:layout_width="@dimen/recording_counter_text_size"
+                            android:layout_height="@dimen/recording_counter_text_size"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/iv_nav_price" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/Linearlayout_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/custom_bg"
+                        android:gravity="right|center_vertical|center_horizontal"
+                        android:orientation="horizontal"
+                        android:paddingRight="10dp">
+
+                        <main_textview.IRANSansMobileFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="درباره برنامه"
+                            android:textColor="#313131"
+                            android:textSize="@dimen/text_size2" />
+
+                        <ImageView
+                            android:layout_width="@dimen/recording_counter_text_size"
+                            android:layout_height="@dimen/recording_counter_text_size"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/iv_nav_guid" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

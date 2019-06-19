@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:background="@drawable/rounded_main_player"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00242424"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_main_top_player"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView_back"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    style="@style/SelectableItemBackground"
+                    android:padding="10dp"
+                    android:src="@drawable/cancel_upload" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/SmoothProgressBar_playvideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.zl.reik.dilatingdotsprogressbar.DilatingDotsProgressBar
+                android:id="@+id/progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:color="@color/teal_700"
+                android:radius="5dp"
+                app:dd_animationDuration="500"
+                app:dd_horizontalSpacing="4dp"
+                app:dd_numDots="5"
+                app:dd_scaleMultiplier="1.5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Linearlayout_videoView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout_action"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/main_logo3"
+                    android:background="#242424">
+
+                    <VideoView
+                        android:id="@+id/videoView_Play"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/main_logo3"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerInParent="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="1dp" />
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/Imageview_Main"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/main_logo3"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:background="#242424"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/player_bg"
+                        android:visibility="visible"
+                        app:riv_border_color="#fff"
+                        app:riv_border_width="0dip"
+                        app:riv_corner_radius="0dip"
+                        app:riv_oval="false" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="@dimen/loadingSize"
+                            android:layout_height="@dimen/loadingSize"
+                            android:layout_margin="8dp"
+                            />
+
+                        <ProgressBar
+                            android:id="@+id/Progressbar_download"
+                            android:layout_width="@dimen/progressbar_size"
+                            android:layout_height="@dimen/progressbar_size"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="3dp"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+                    <ProgressBar
+                        android:id="@+id/Progressbar_load"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:visibility="gone" />
+                    <com.wang.avi.AVLoadingIndicatorView
+                        android:id="@+id/aviLoading"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        app:indicatorName="BallGridPulseIndicator"
+                        app:indicatorColor="#353535"
+                        />
+                    <TextView
+                        android:id="@+id/TextView_progressbar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="#818181"
+            android:gravity="right|center"
+            android:orientation="vertical">
+
+            <New_Custom_textview.IRANSansMobile_BoldFontTextView
+                android:id="@+id/Textview_Title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:gravity="right|center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text=""
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <New_Custom_textview.IRANSansMobile_BoldFontTextView
+                android:id="@+id/textview_duration_left"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="00:00"
+                android:textColor="#898989"
+                android:textSize="@dimen/text_size" />
+
+            <SeekBar
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:maxHeight="2dip"
+                android:minHeight="2dip"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:progressDrawable="@drawable/custom_seek_bar"
+                android:thumbTint="#e6e6e6" />
+            <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                android:id="@+id/seekBar3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxHeight="2dip"
+                android:minHeight="2dip"
+                android:layout_weight="1"
+                android:visibility="gone"
+                app:dsb_indicatorPopupEnabled="false"
+                app:dsb_indicatorColor="#dd0"
+                app:dsb_trackColor="#FF7788FF"
+                app:dsb_progressColor="#92a"
+                />
+            <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxHeight="2dip"
+                android:minHeight="2dip"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                app:dsb_thumbSize="10dp"
+                app:dsb_trackHeight="10dp"
+                app:dsb_scrubberHeight="10dp"
+                app:dsb_indicatorPopupEnabled="false"
+                app:dsb_trackColor="#73e5aa"
+                app:dsb_progressColor="#0b9adc"
+                style="@style/asd"
+                />
+            <New_Custom_textview.IRANSansMobile_BoldFontTextView
+                android:id="@+id/textview_Total_duration"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="00:00"
+                android:textColor="#898989"
+                android:textSize="@dimen/text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left|center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/Imageview_repeat"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/ic_action_repeat" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/Imageview_pause"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/custom_stop"
+                        android:visibility="gone" />
+
+
+                    <ImageView
+                        android:id="@+id/Imageview_play"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/custom_play" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/ImageView_sound_turn_off"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/ic_action_turn_on"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ImageView_sound_turn_on"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/ic_action_turn_off"
+                    android:visibility="gone" />
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/seekBar_sound"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:maxHeight="8dip"
+                    android:minHeight="8dip"
+                    app:dsb_indicatorPopupEnabled="false"
+                    app:dsb_indicatorColor="@color/teal_300"
+                    app:dsb_trackColor="@color/teal_200"
+                    app:dsb_progressColor="@color/teal_300"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

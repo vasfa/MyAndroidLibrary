@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AnyViewIndicator">
+        <attr name="avi_width" format="dimension"/>
+        <attr name="avi_height" format="dimension"/>
+        <attr name="avi_margin" format="dimension"/>
+        <attr name="avi_animator" format="reference"/>
+        <attr name="avi_animator_reverse" format="reference"/>
+        <attr name="avi_drawable" format="reference"/>
+        <attr name="avi_drawable_unselected" format="reference"/>
+        <attr name="avi_animation_enable" format="boolean"/>
+
+        <attr name="avi_orientation" format="enum">
+            <!-- Defines an horizontal widget. -->
+            <enum name="horizontal" value="0"/>
+            <!-- Defines a vertical widget. -->
+            <enum name="vertical" value="1"/>
+        </attr>
+
+        <attr name="avi_gravity">
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30"/>
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50"/>
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03"/>
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05"/>
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10"/>
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70"/>
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01"/>
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07"/>
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11"/>
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77"/>
+            <!-- Additional option that can be set to have the top and/or bottom edges of
+            the child clipped to its container's bounds.
+            The clip will be based on the vertical gravity: a top gravity will clip the bottom
+            edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
+            <flag name="clip_vertical" value="0x80"/>
+            <!-- Additional option that can be set to have the left and/or right edges of
+            the child clipped to its container's bounds.
+            The clip will be based on the horizontal gravity: a left gravity will clip the right
+            edge, a right gravity will clip the left edge, and neither will clip both edges. -->
+            <flag name="clip_horizontal" value="0x08"/>
+            <!-- Push object to the beginning of its container, not changing its size. -->
+            <flag name="start" value="0x00800003"/>
+            <!-- Push object to the end of its container, not changing its size. -->
+            <flag name="end" value="0x00800005"/>
+        </attr>
+
+    </declare-styleable>
+    <declare-styleable name="StickyScrollView">
+        <attr name="stuckShadowHeight" format="dimension" />
+        <attr name="stuckShadowDrawable" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="OptRoundCardView">
+        <!-- Background color for CardView. -->
+        <attr name="optRoundCardBackgroundColor" format="color" />
+        <!-- Corner radius for CardView. -->
+        <attr name="optRoundCardLeftTopCorner" format="boolean" />
+        <!-- Corner radius for CardView. -->
+        <attr name="optRoundCardRightTopCorner" format="boolean" />
+        <!-- Corner radius for CardView. -->
+        <attr name="optRoundCardLeftBottomCorner" format="boolean" />
+        <!-- Corner radius for CardView. -->
+        <attr name="optRoundCardRightBottomCorner" format="boolean" />
+
+        <!-- Left Edges for CardView. -->
+        <attr name="optRoundCardLeftEdges" format="boolean" />
+        <!-- Top Edges for CardView. -->
+        <attr name="optRoundCardTopEdges" format="boolean" />
+        <!-- Right Edges for CardView. -->
+        <attr name="optRoundCardRightEdges" format="boolean" />
+        <!-- Bottom Edges for CardView. -->
+        <attr name="optRoundCardBottomEdges" format="boolean" />
+
+        <!-- Corner radius for CardView. -->
+        <attr name="optRoundCardCornerRadius" format="dimension" />
+        <!-- Elevation for CardView. -->
+        <attr name="optRoundCardElevation" format="dimension" />
+        <!-- Maximum Elevation for CardView. -->
+        <attr name="optRoundCardMaxElevation" format="dimension" />
+        <!-- Add padding in API v21+ as well to have the same measurements with previous versions. -->
+        <attr name="optRoundCardUseCompatPadding" format="boolean" />
+        <!-- Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners. -->
+        <attr name="optRoundCardPreventCornerOverlap" format="boolean" />
+        <!-- Inner padding between the edges of the Card and children of the CardView. -->
+        <attr name="optRoundContentPadding" format="dimension" />
+        <!-- Inner padding between the left edge of the Card and children of the CardView. -->
+        <attr name="optRoundContentPaddingLeft" format="dimension" />
+        <!-- Inner padding between the right edge of the Card and children of the CardView. -->
+        <attr name="optRoundContentPaddingRight" format="dimension" />
+        <!-- Inner padding between the top edge of the Card and children of the CardView. -->
+        <attr name="optRoundContentPaddingTop" format="dimension" />
+        <!-- Inner padding between the bottom edge of the Card and children of the CardView. -->
+        <attr name="optRoundContentPaddingBottom" format="dimension" />
+    </declare-styleable>
+
+</resources>

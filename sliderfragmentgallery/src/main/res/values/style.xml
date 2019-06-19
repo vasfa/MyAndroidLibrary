@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#03A9F4</item>
+        <item name="colorPrimaryDark">#03A9F4</item>
+        <item name="colorAccent">#03A9F4</item>
+
+    </style>
+
+    <style name="AppThemeSplash" parent="BaseTheme">
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+</resources>
